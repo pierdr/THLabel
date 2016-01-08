@@ -76,6 +76,10 @@
 	self.gradientStartPoint = CGPointMake(0.5, 0.2);
 	self.gradientEndPoint = CGPointMake(0.5, 0.8);
 	self.automaticallyAdjustTextInsets = YES;
+    self.font = [UIFont fontWithName:@"OLF SimpleSansA3" size:45];
+    self.strokeColor = [UIColor colorWithRed:32.0 green:243.0 blue:184.0 alpha:255.0];
+    self.strokeSize  = 0.25;
+    self.lineBreakMode = NSLineBreakByWordWrapping;
 }
 
 - (BOOL)hasShadow {

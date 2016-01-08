@@ -62,6 +62,9 @@ typedef NS_OPTIONS(NSUInteger, THLabelFadeTruncatingMode) {
 @property (nonatomic, assign) CGFloat letterSpacing;
 @property (nonatomic, assign) CGFloat lineSpacing;
 
+@property (nonatomic, strong) NSString* fontName;
+@property (nonatomic, strong) NSNumber* fontSize;
+
 @property (nonatomic, assign) CGFloat shadowBlur;
 
 @property (nonatomic, assign) CGFloat innerShadowBlur;
